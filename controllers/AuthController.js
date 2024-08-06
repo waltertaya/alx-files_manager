@@ -1,5 +1,12 @@
+/* eslint-disable import/no-named-as-default */
 import { v4 as uuidv4 } from 'uuid';
 import redisClient from '../utils/redis';
+
+/**
+ * AuthController class.
+ * @class AuthController
+ * @classdesc Class representing the AuthController.
+ */
 
 export default class AuthController {
   static async getConnect(req, res) {
