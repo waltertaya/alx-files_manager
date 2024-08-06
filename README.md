@@ -1,10 +1,10 @@
 ## alx-files_manager
 
 ### Overview
-This project, **alx-files_manager**, aims to create a simple platform for uploading and viewing files. The project encompasses various back-end technologies and concepts, including Node.js, Express.js, MongoDB, Redis, and more. It is designed to consolidate your knowledge of authentication, data storage, background processing, and API development. The project is a collaboration between **Walter ONYANGO** and another team member.
+This project, **alx-files_manager**, aims to create a simple platform for uploading and viewing files. The project encompasses various back-end technologies and concepts, including Node.js, Express.js, MongoDB, Redis, and more. It is designed to consolidate knowledge of authentication, data storage, background processing, and API development.
 
 ### Learning Objectives
-By the end of this project, you should be able to:
+By the end of this project, should be able to:
 1. Create an API with Express.
 2. Authenticate users.
 3. Store data in MongoDB.
