@@ -1,14 +1,16 @@
+import { Router } from 'express';
 import AppController from '../controllers/AppController';
 import UsersController from '../controllers/UsersController';
 import AuthController from '../controllers/AuthController';
 
-const injectRouter = (api) => {
-  api.get('/status', AppController.getStatus);
-  api.get('/stats', AppController.getStats);
+const router = Router();
 
-  api.post('/users', UsersController.postNew);
-  api.get('/connect', AuthController.getConnect);
-  api.get('/disconnect', AuthController.getDisconnect);
-};
+router.get('/status', AppController.getStatus);
+router.get('/stats', AppController.getStats);
+router.post('/users', UsersController.postNew);
 
-export default injectRouter;
+router.get('/connect', AuthController.getConnect);
+router.get('/disconnect', AuthController.getDisconnect);
+router.get('/users/me', UsersController.getMe);
+
+export default router;
